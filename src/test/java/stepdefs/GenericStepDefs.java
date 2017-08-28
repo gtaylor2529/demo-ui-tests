@@ -26,7 +26,7 @@ public class GenericStepDefs {
     @Then("^the (.*) header is displayed$")
     public void thePageNameHeaderIsDisplayed(String pageName) throws Throwable {
         genericPage = new GenericPage(driver);
-        genericPage.assertPageIsDisplayed(pageName);
+        genericPage.assertPageIsDisplayed("adasdas");
     }
 
     @When("^I navigate to the (.*) page$")

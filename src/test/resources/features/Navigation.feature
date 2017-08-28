@@ -14,10 +14,10 @@ Feature: Navigation
     Then the <pageName> header is displayed
 
     Examples:
-      | pageName      |
-      | ABOUTsdada    |
-      | SERVICESdadas |
-      | WORKsadaa     |
+      | pageName |
+      | ABOUT    |
+      | SERVICES |
+      | WORK     |
 
   Scenario: Calculate number of Valtech offices
     When I open the contact page
