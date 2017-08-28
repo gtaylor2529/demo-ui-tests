@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = {"stepdefs"},
         features = {"src/test/resources/features/"},
-        format = {"pretty", "html:target/cucumber-html-report"}
+        format = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber.json"}
 )
 
 public class GenericRunner {
